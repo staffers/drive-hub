@@ -1,4 +1,4 @@
--- schema.sql
+-- the schema.sql
 CREATE TABLE IF NOT EXISTS clients (
   id           TEXT PRIMARY KEY,
   name         TEXT NOT NULL,
