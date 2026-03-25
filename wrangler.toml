@@ -1,0 +1,13 @@
+name = "drive-hub"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+
+[[d1_databases]]
+binding = "DB"
+database_name = "drive-hub"
+database_id = "5ccb81cd-3330-465c-a2f4-713864fd418c"   # from step 4.1
+
+
+[vars]
+# Do NOT put ADMIN_SECRET here — use wrangler secret instead (see step 6)
